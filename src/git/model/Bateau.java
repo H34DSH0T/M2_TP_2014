@@ -51,6 +51,4 @@ public class Bateau {
 	public String toString() {
 		return "Bateau [id=" + id + ", nom=" + nom + "]";
 	}	
-	
-	
 }
