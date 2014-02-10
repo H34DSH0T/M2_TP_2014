@@ -33,5 +33,10 @@ public class Bateau {
 			return equipage.add(m);
 		}
 		return false;
-	}	
+	}
+
+	@Override
+	public String toString() {
+		return "Bateau [id=" + id + ", nom=" + nom + "]";
+	}
 }
