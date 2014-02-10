@@ -1,6 +1,7 @@
 package git.model;
 
 public class Marin {
+	
 /******** CHAMPS ********/
 	protected Long id;
 
@@ -56,6 +57,7 @@ public class Marin {
 	}
 	
 	/******* METHODES ******/
+	
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		sb.append("id=").append(id+", ");
