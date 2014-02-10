@@ -3,7 +3,7 @@ package git.model;
 public class Marin {
 	
 /******** CHAMPS ********/
-	protected Long id;
+	private Long id;
 
 	private String nom;
 	private String prenom;
