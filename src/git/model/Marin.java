@@ -14,7 +14,6 @@ public class Marin {
 	}
 	
 	public Marin(String nom, String prenom, int age) {
-		//super();
 		this.nom = nom;
 		this.prenom = prenom;
 		this.age = age;
