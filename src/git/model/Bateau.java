@@ -1,6 +1,6 @@
 package git.model;
 
-import git.util.Status;
+import git.util.Statut;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ public class Bateau {
 	
 	private String nom;
 	
-	private Status statut;
+	private Statut statut;
 
 	private List<Marin> equipage = new ArrayList<Marin>();
 	
@@ -39,11 +39,18 @@ public class Bateau {
 		return false;
 	}
 
-	public Status getStatut() {
+	public Statut getStatut() {
 		return statut;
 	}
 
-	public void setStatut(Status statut) {
+	public void setStatut(Statut statut) {
 		this.statut = statut;
+	}
+
+	@Override
+	public String toString() {
+		return "Bateau [id=" + id + ", nom=" + nom + "]";
 	}	
+	
+	
 }
